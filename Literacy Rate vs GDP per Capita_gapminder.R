@@ -2,7 +2,7 @@ library(dplyr)
 library(ggplot2)
 
 #Q1: How many adults in the world say they can read?
-# this question peaked a curiosity to find out if literacy rate correlated with 
+# This question peaked a curiosity to find out if literacy rate correlated with 
 # GDP per capita across different countries
 
 # Read datasets
@@ -47,4 +47,7 @@ ggplot(literacy_gdp, aes(x = literacy, y = gdp, color = country)) +
        caption = "Source: Gapminder") +
   theme(legend.position = "none")  # Remove legend for better clarity
 
+#Conclusion
+  # There is a positive correlation between literacy rate and GDP per capita 
+  # across different countries
 
